@@ -1,0 +1,93 @@
+body{
+    background-color:hsl(217, 54%, 11%);
+}
+div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 510px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+#mainImage
+{
+    margin-top:20px;
+    margin-left:25px;
+    width:270px;
+    height:260px;
+    border-radius: 10px;
+    position:relative;
+   
+}
+h2{
+    color:white;
+    margin-left:35px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    position:absolute;
+}
+#paragraphExp{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    margin-top:60px;
+    margin-left:35px;
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+#ethIcon{
+    margin-left:35px;
+    
+}
+#price
+{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    margin-left: 60px;
+    margin-top:-22px;
+}
+#clockImage{
+    position: relative;
+    margin-left:190px;
+    top:-33px;
+}
+#clockText{
+    font-family: 'Outfit', sans-serif;
+    color:hsl(215, 51%, 70%);
+    margin-left:215px;
+    position:relative;
+    top:-72px;
+}
+hr{
+    width:80%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: -75px;
+    border-color:hsl(215, 32%, 27%);
+}
+#avatar{
+    width:35px;
+    height:35px;
+    margin-top: 10px;
+    margin-left:30px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+#author{
+    font-family: 'Outfit', sans-serif;
+    margin-left:85px;
+    margin-top:-32px;
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+#boldEl
+{
+    color: white;
+}
+h2:hover{
+    color:hsl(215, 51%, 70%);
+}
+#boldEl:hover{
+    color:hsl(215, 51%, 70%);
+}
